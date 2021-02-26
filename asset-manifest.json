@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d4fb7fab.chunk.css",
+    "main.js": "/static/js/main.f3e19405.chunk.js",
+    "main.js.map": "/static/js/main.f3e19405.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.12535ebd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.12535ebd.js.map",
+    "static/js/2.ab09612a.chunk.js": "/static/js/2.ab09612a.chunk.js",
+    "static/js/2.ab09612a.chunk.js.map": "/static/js/2.ab09612a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d4fb7fab.chunk.css.map": "/static/css/main.d4fb7fab.chunk.css.map",
+    "static/js/2.ab09612a.chunk.js.LICENSE.txt": "/static/js/2.ab09612a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Aileron-Regular.acd900a1.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12535ebd.js",
+    "static/js/2.ab09612a.chunk.js",
+    "static/css/main.d4fb7fab.chunk.css",
+    "static/js/main.f3e19405.chunk.js"
+  ]
+}

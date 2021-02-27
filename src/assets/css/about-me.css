@@ -1,0 +1,105 @@
+.about-me {
+  text-align: left;
+  margin-left: 55px;
+  margin-right: 75px;
+}
+
+.about-me .text-container {
+  width: 950px;
+}
+
+.about-me .header-text {
+  font-size: 80px;
+  color: #821520;
+}
+
+.about-me .subheader-text {
+  margin: 30px 0;
+  font-size: 40px;
+  color: #821520;
+}
+
+.about-me .text-content-container {
+  font-size: 28px;
+  width: 560px;
+  color: #821520;
+}
+
+.about-me .text-content {
+  display: flex;
+  align-items: center;
+  width: 635px;
+}
+
+.text-content .icon-image {
+  margin-right: 60px;
+  height: 100px;
+  width: 110px;
+  /*border: 1px solid blue;*/
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.icon-image div {
+  width: 75px;
+  height: 75px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*border: 1px solid red;*/
+}
+
+.icon-image .light-bulb-icon {
+  background-image: url('../images/light-bulb-icon.png');
+}
+
+.icon-image .globe-icon {
+  background-image: url('../images/globe-icon.png');
+}
+
+.icon-image .wine-glass-icon {
+  background-image: url('../images/wine-glass-icon.png');
+}
+
+.icon-image .diploma-icon {
+  background-image: url('../images/diploma-icon.png');
+}
+
+.about-me .text-item {
+  margin: 25px 0;
+  width: 485px;
+}
+
+.about-me .image-container {
+  height: 725px;
+  width: 470px;
+  position: relative;
+  background-image: url('../images/about-img.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.about-me .box-content {
+  position: absolute;
+  left: -140px;
+}
+
+.about-me .color-box {
+  width: 165px;
+  height: 170px;
+}
+
+.about-me .title-box {
+  position: absolute;
+  font-size: 28px;
+  top: 50px;
+  left: 32px;
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 215px;
+  color: #ffffff;
+}

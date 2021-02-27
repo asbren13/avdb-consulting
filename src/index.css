@@ -5,6 +5,13 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "Aileron-Heavy";
+  src: local("Aileron-Heavy"),
+    url("./assets/fonts/Aileron-Heavy.otf") format("truetype");
+  font-weight: normal;
+}
+
 body {
   margin: 0;
   font-family:'Aileron-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

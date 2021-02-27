@@ -1,0 +1,42 @@
+.side-text-section {
+	width: 500px;
+	height: 100%;
+}
+
+.side-text-section span {
+	font-size: 80px;
+	writing-mode: tb-rl;
+    transform: rotate(-180deg);
+}
+
+.contact-section .text-container {
+	height: 100%;
+	width: 100%;
+	background-image: url('../images/contact-bg.jpg');
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-section .text-container-content {
+	margin: 0 150px;
+	padding: 25px;
+	font-size: 36px;
+	line-height: 48px;
+	color: #ffffff;
+}
+
+.contact-section .text-content {
+	padding: 12px 0;
+}
+
+.contact-icons {
+	display: flex;
+	justify-content: center;
+}
+
+.contact-section .button {
+	font-size: 36px;
+	margin: 10px 12px 0 12px;
+}

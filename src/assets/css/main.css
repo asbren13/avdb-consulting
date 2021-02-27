@@ -1,0 +1,13 @@
+.main-section .image-section {
+  background-image: url('../images/main-section.jpg');
+}
+
+.main-section .box-content {
+  position: absolute;
+  left: -100px;
+}
+
+.main-section .color-box {
+  width: 176px;
+  height: 185px;
+}

@@ -1,12 +1,25 @@
-import Header from './Header';
+import Main from './layout/Main';
+import AboutMeSection from './layout/AboutMe';
+import AboutAVDBSection from './layout/AboutAVDB';
+import ServicesSection from './layout/Services';
+import CurrentClientsSection from './layout/CurrentClients';
+import FormerEmployersSection from './layout/FormerEmployers';
+import CaseStudiesSection from './layout/CaseStudies';
+import ContactSection from './layout/Contact';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
       <div className="body">
-        <div className="welcome">welcome, exciting things will be coming soon</div>
+        <Main />
+        <AboutMeSection />
+        <AboutAVDBSection />
+        <ServicesSection />
+        <CurrentClientsSection />
+        <FormerEmployersSection />
+        <CaseStudiesSection />
+        <ContactSection />
       </div>
     </div>
   );

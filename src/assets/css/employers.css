@@ -1,0 +1,23 @@
+.employers-section .image-section {
+  width: 600px;
+  background-image: url('../images/employers-bg.jpg');
+  display: flex;
+  align-items: center;
+}
+
+.image-section-container {
+	background-image: url('../images/former-employers.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 45px;
+}
+
+.employers-section .header-box {
+	margin: 0 60px;
+	font-size: 66px;
+	color: #ffffff;
+	padding: 48px 64px;
+}

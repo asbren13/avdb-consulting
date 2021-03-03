@@ -1,28 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.294dbaaa.chunk.css",
-    "main.js": "/static/js/main.70fddd9a.chunk.js",
-    "main.js.map": "/static/js/main.70fddd9a.chunk.js.map",
+    "main.css": "/static/css/main.1a266a89.chunk.css",
+    "main.js": "/static/js/main.1c1c44e5.chunk.js",
+    "main.js.map": "/static/js/main.1c1c44e5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.12535ebd.js",
     "runtime-main.js.map": "/static/js/runtime-main.12535ebd.js.map",
     "static/js/2.ab09612a.chunk.js": "/static/js/2.ab09612a.chunk.js",
     "static/js/2.ab09612a.chunk.js.map": "/static/js/2.ab09612a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.294dbaaa.chunk.css.map": "/static/css/main.294dbaaa.chunk.css.map",
+    "static/css/main.1a266a89.chunk.css.map": "/static/css/main.1a266a89.chunk.css.map",
     "static/js/2.ab09612a.chunk.js.LICENSE.txt": "/static/js/2.ab09612a.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/Aileron-Regular.acd900a1.otf",
-    "static/media/about-me.css": "/static/media/wine-glass-icon.b3dc005d.png",
-    "static/media/case-studies.css": "/static/media/case-studies.2d687437.jpg",
-    "static/media/clients.css": "/static/media/vin-social.5b73cb9b.png",
-    "static/media/contact.css": "/static/media/contact-bg.7960433d.jpg",
-    "static/media/employers.css": "/static/media/former-employers.faa8fdff.png",
-    "static/media/main.css": "/static/media/main-section.d1b63f12.jpg",
-    "static/media/services.css": "/static/media/services-img.75ff1126.PNG"
+    "static/media/index.css": "/static/media/Aileron-Regular.acd900a1.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.12535ebd.js",
     "static/js/2.ab09612a.chunk.js",
-    "static/css/main.294dbaaa.chunk.css",
-    "static/js/main.70fddd9a.chunk.js"
+    "static/css/main.1a266a89.chunk.css",
+    "static/js/main.1c1c44e5.chunk.js"
   ]
 }

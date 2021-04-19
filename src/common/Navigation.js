@@ -52,20 +52,20 @@ export default function Navigation({ showLogo = true, lightNav = false }) {
         </div>
         <div className="mobile-menu h-full pr-16 text-secondary">
           <nav className="flex flex-col h-full mx-5 text-4xl text-right">
-            {navTabs.map((nav) => (
-              <Link className="my-6" to={nav.route}>{nav.label}</Link>
+            {navTabs.map((nav, i) => (
+              <Link key={i} className="my-6" to={nav.route}>{nav.label}</Link>
         	))}
           </nav>
         </div>
       </div>
 	  {showLogo && (
 	  	<Link to={routes.home}>
-	  	  <img className="nav-logo mt-8 ml-14" src={!lightNav ? appLogoSand : appLogoCream} alt="AVDB Consulting" />
+	  	  <img className="nav-logo mt-9 ml-14" src={!lightNav ? appLogoSand : appLogoCream} alt="AVDB Consulting" />
 	  	</Link>
 	  )}
       <div className="button-container flex items-center mt-10 mr-10 p-0">
       	<a className="linkedin-icon mr-4 text-3xl" href="https://www.linkedin.com/in/alisonvdb/" target="_blank" rel="noreferrer noopener">
-      	  <i class="fab fa-linkedin"></i>
+      	  <i className="fab fa-linkedin"></i>
       	</a>
         <button type="button" className="open-button" onClick={() => setIsOpen(true)}>
           <div className="top" />

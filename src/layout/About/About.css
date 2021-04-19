@@ -1,0 +1,25 @@
+.about .header-section-main {
+  height: 655px;
+  background: url('./images/wine-glass-header.png');
+  background-size: cover;
+  background-position: 65% 55%;
+}
+
+.about .header-section-main::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; 
+  height: 655px;
+  background: rgba(107, 85, 56, 0.35);
+}
+
+.vertical-line {
+  height: 47px;
+  border-left: 2px solid #AD8C63;
+}
+
+.about-content .content-section img {
+  height: 212px;
+  width: 214px;
+}

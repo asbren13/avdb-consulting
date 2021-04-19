@@ -1,0 +1,59 @@
+.panel-section {
+  height: 465px;
+}
+
+.chufly-imports {
+  background-image: url('./images/chufly-imports.png');
+}
+
+.kevin-zraly {
+  background-image: url('./images/kevin-zraly.png');
+}
+
+.oyster-sunday {
+  background-image: url('./images/oyster-sunday.png');
+}
+
+.vin-social {
+  background-image: url('./images/vin-social.png');
+}
+
+.portfolio-content {
+  background: url('./images/case-studies-bg.png');
+  background-size: cover;
+}
+
+.portfolio-content .porfolio-text {
+  height: 370px;
+}
+
+/*.portfolio-content .button {
+  font-size: 18px;
+  padding: 10px 58px;
+}*/
+
+.panel-section .hidden-line,
+.panel-section .hidden-text {
+  display: none;
+}
+
+.panel-section .hidden-line {
+  border-bottom: 2px solid #FFFAEC;
+}
+
+.panel-section:hover .panel-content {
+  background: rgba(150, 120, 84, 0.45);
+}
+
+.panel-section:hover .hidden-line,
+.panel-section:hover .hidden-text {
+  display: block;
+}
+
+.react-multiple-carousel__arrow {
+  background: rgba(255, 250, 236, 0.5);
+}
+
+.react-multiple-carousel__arrow::before {
+  color: #844646;
+}

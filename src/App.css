@@ -1,111 +1,32 @@
-.App {
-  text-align: center;
+.bg-cream {
+  background-color: #FFFAEC;
 }
 
-.heavy {
-  font-family: "Aileron-Heavy";
+.bg-red {
+  background-color: #844646;
 }
 
-header.header-section {
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 16px;
-  color: #821520;
-}
-
-.name-section {
-  display: flex;
-  align-items: center;
-}
-
-.name-section i {
-  margin: 0 4px;
-}
-
-.header-section .tabs-section span {
-  padding: 0 8px;
-}
-
-.red-bg {
-  background-color: #821520;
-}
-
-.red {
-  color: #821520;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-}
-
-.main-section-container {
-  margin: 0 0 0 145px;
-}
-
-.main-section,
-.about-me,
-.about-avdb-section,
-.services-section,
-.clients-section,
-.employers-section,
-.case-studies-section,
-.contact-section {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.image-section {
-  height: 100%;
-  width: 600px;
-  position: relative;
+.bg-home {
+  background-image: url('./assets/images/kingston-bg.jpeg');
   background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
 }
 
-.title-box {
-  position: absolute;
-  font-size: 32px;
-  top: 50px;
-  left: 50px;
-  text-align: left;
-  font-weight: bold;
-  text-transform: uppercase;
-  width: 215px;
-  color: #ffffff;
+.font-secondary {
+  font-family: 'Gotham Book Regular';
 }
 
-.text-section {
-  width: 800px;
+.text-primary {
+  color: #AD8C63;
 }
 
-.text-section .name {
-  font-size: 100px;
-  font-weight: bold;
-  color: #821520;
+.text-secondary {
+  color: #FFFAEC;
 }
 
-.text-section .info-text {
-  margin-top: 60px;
-  font-size: 24px;
-  color: #821520;
+.text-red {
+  color: #844646;
 }
 
-a.button {
-  color: #ffffff;
-  padding: 8px 12px;
-  text-decoration: none;
-  border-radius: 2px;
+button:focus {
+  outline: none;
 }

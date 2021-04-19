@@ -1,6 +1,6 @@
 .services-section .image-section {
   width: 565px;
-  background-image: url('../images/services-img.PNG');
+  /*background-image: url('../images/services-img.PNG');*/
   display: flex;
   align-items: center;
 }

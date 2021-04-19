@@ -1,6 +1,6 @@
 .clients-section .image-section {
   width: 576px;
-  background-image: url('../images/clients-bg.JPG');
+  /*background-image: url('../images/clients-bg.JPG');*/
   display: flex;
   align-items: center;
 }
@@ -43,7 +43,7 @@
 	background-position: center;
 	margin-right: 100px;
 }
-
+/*
 .client-logo.chufly {
 	background-image: url('../images/chufly.png');
 }
@@ -57,3 +57,4 @@
 	background-image: url('../images/vin-social.png');
 }
 
+*/

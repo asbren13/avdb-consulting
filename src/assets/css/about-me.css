@@ -50,7 +50,7 @@
   /*border: 1px solid red;*/
 }
 
-.icon-image .light-bulb-icon {
+/*.icon-image .light-bulb-icon {
   background-image: url('../images/light-bulb-icon.png');
 }
 
@@ -65,7 +65,7 @@
 .icon-image .diploma-icon {
   background-image: url('../images/diploma-icon.png');
 }
-
+*/
 .about-me .text-item {
   margin: 25px 0;
   width: 485px;
@@ -75,7 +75,7 @@
   height: 725px;
   width: 470px;
   position: relative;
-  background-image: url('../images/about-img.jpg');
+  /*background-image: url('../images/about-img.jpg');*/
   background-size: cover;
   background-position: center;
   display: flex;

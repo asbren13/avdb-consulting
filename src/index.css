@@ -1,3 +1,8 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: "Aileron-Regular";
   src: local("Aileron-Regular"),
@@ -12,9 +17,37 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "Recoleta-Bold";
+  src: local("Recoleta-Bold"),
+    url("./assets/fonts/Recoleta-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Recoleta-SemiBold";
+  src: local("Recoleta-SemiBold"),
+    url("./assets/fonts/Recoleta-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Better-Friend";
+  src: local("Better-Friend"),
+    url("./assets/fonts/Better-Friend.otf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gotham Book Regular";
+  src: local("Gotham Book Regular"),
+    url("./assets/fonts/Gotham Book Regular.otf") format("truetype");
+  font-weight: normal;
+}
+
 body {
   margin: 0;
-  font-family:'Aileron-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family:'Recoleta-SemiBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

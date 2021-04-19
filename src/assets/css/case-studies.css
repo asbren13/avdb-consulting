@@ -1,6 +1,6 @@
 .case-studies-section .image-section {
   width: 600px;
-  background-image: url('../images/case-studies.jpg');
+  /*background-image: url('../images/case-studies.jpg');*/
   display: flex;
   align-items: center;
 }

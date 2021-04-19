@@ -1,0 +1,11 @@
+.light .footer-line {
+  border-bottom: 2px solid #FFFAEC;
+}
+
+.sand .footer-line {
+  border-bottom: 2px solid #AD8C63;
+}
+
+.button {
+  width: fit-content;
+}

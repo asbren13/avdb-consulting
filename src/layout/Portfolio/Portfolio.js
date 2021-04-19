@@ -16,7 +16,14 @@ const Portfolio = () => (
     <div className="portfolio-content flex flex-col flex-grow w-full bg-cream">
       <div className="porfolio-text flex flex-col items-center justify-center">
         <div className="text-5xl text-secondary mt-14">Case studies available upon request</div>
-        <a className="button rounded-full mt-7 mb-6 font-secondary bg-cream text-red" target="_blank" rel="noreferrer" href="mailto:alisongvdb@gmail.com?subject=Request case studies">request case studies</a>
+        <a
+          className="button rounded-full mt-7 mb-6 font-secondary bg-cream text-red"
+          target="_blank"
+          rel="noreferrer"
+          href="mailto:alisongvdb@gmail.com?subject=Request case studies"
+        >
+          request case studies
+        </a>
       </div>
       <Footer lightFooter showExpanded />
     </div>

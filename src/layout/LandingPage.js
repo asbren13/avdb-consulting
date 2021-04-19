@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Navigation from '../common/Navigation';
 import Footer from '../common/Footer';
-import { routes } from '../RouteConstants';
+import routes from '../RouteConstants';
 import landingLogo from '../assets/images/landing-logo.png';
 
 const LandingPage = () => (

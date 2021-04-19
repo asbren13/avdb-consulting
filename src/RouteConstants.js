@@ -1,4 +1,4 @@
-export const routes = {
+export default {
   landing: '/',
   home: '/home',
   about: '/about',

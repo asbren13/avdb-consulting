@@ -1,32 +1,32 @@
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 const PortfolioCarousel = () => {
   const responsive = {
     desktop: {
       breakpoint: {
         max: 3000,
-        min: 1024
+        min: 1024,
       },
       items: 4,
-      partialVisibilityGutter: 0
+      partialVisibilityGutter: 0,
     },
     mobile: {
       breakpoint: {
         max: 464,
-        min: 0
+        min: 0,
       },
       items: 1,
-      partialVisibilityGutter: 30
+      partialVisibilityGutter: 30,
     },
     tablet: {
       breakpoint: {
         max: 1024,
-        min: 464
+        min: 464,
       },
       items: 2,
-      partialVisibilityGutter: 30
-    }
+      partialVisibilityGutter: 30,
+    },
   };
 
   return (
@@ -59,8 +59,10 @@ const PortfolioCarousel = () => {
             <div className="w-1/2 text-4xl text-center">Oyster Sunday</div>
             <div className="hidden-line w-4/5 my-8" />
             <div className="hidden-text px-12 text-xl font-secondary">
-              Insert sentence about the work you did. Insert sentence about the work you did.<br/><br/>
-              Insert sentence about the work you did. Insert sentence about the work you did. 
+              Insert sentence about the work you did. Insert sentence about the work you did.
+              <br />
+              <br />
+              Insert sentence about the work you did. Insert sentence about the work you did.
             </div>
           </div>
         </a>
@@ -71,8 +73,10 @@ const PortfolioCarousel = () => {
             <div className="w-1/2 text-4xl text-center">Chufly Imports</div>
             <div className="hidden-line w-4/5 my-8" />
             <div className="hidden-text px-12 text-xl font-secondary">
-              Insert sentence about the work you did. Insert sentence about the work you did.<br/><br/>
-              Insert sentence about the work you did. Insert sentence about the work you did. 
+              Insert sentence about the work you did. Insert sentence about the work you did.
+              <br />
+              <br />
+              Insert sentence about the work you did. Insert sentence about the work you did.
             </div>
           </div>
         </a>
@@ -83,8 +87,10 @@ const PortfolioCarousel = () => {
             <div className="w-1/2 text-4xl text-center">Kevin Zraly</div>
             <div className="hidden-line w-4/5 my-8" />
             <div className="hidden-text px-12 text-xl font-secondary">
-              Insert sentence about the work you did. Insert sentence about the work you did.<br/><br/>
-              Insert sentence about the work you did. Insert sentence about the work you did. 
+              Insert sentence about the work you did. Insert sentence about the work you did.
+              <br />
+              <br />
+              Insert sentence about the work you did. Insert sentence about the work you did.
             </div>
           </div>
         </a>
@@ -95,8 +101,10 @@ const PortfolioCarousel = () => {
             <div className="w-1/2 text-4xl text-center">Vin Social</div>
             <div className="hidden-line w-4/5 my-8" />
             <div className="hidden-text px-12 text-xl font-secondary">
-              Insert sentence about the work you did. Insert sentence about the work you did.<br/><br/>
-              Insert sentence about the work you did. Insert sentence about the work you did. 
+              Insert sentence about the work you did. Insert sentence about the work you did.
+              <br />
+              <br />
+              Insert sentence about the work you did. Insert sentence about the work you did.
             </div>
           </div>
         </a>

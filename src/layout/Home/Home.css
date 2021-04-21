@@ -24,3 +24,7 @@
   position: fixed;
   z-index: 3;
 }
+
+.home-text {
+  line-height: 1.5;
+}

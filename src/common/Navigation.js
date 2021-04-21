@@ -34,7 +34,7 @@ const Navigation = ({ showLogo, lightNav }) => {
   ];
   return (
     <div
-      className={classNames('flex', {
+      className={classNames('flex mx-0 md:mx-10 lg:mx-0', {
         'justify-between': showLogo,
         'justify-end': !showLogo,
         'text-primary': !lightNav,
@@ -42,31 +42,35 @@ const Navigation = ({ showLogo, lightNav }) => {
       })}
     >
       <div
-        className={classNames('mobile-nav bg-red w-full flex flex-col justify-end pt-10 pl-14', {
+        className={classNames('mobile-nav bg-red w-full flex flex-col justify-end pt-10 pl-7 lg:pl-14', {
           closed: !isOpen,
         })}
       >
         <div className="close-button-container flex justify-between">
-          <img className="nav-logo" src={appLogoCream} alt="AVDB Consulting" />
+          <img className="nav-logo h-14 md:h-24 sm:h-full" src={appLogoCream} alt="AVDB Consulting" />
           <button type="button" className="close-button mr-8" tabIndex="0" onClick={() => setIsOpen(false)}>
             <div className="close-left" />
             <div className="close-right" />
           </button>
         </div>
-        <div className="mobile-menu h-full pr-16 text-secondary">
-          <nav className="flex flex-col h-full mx-5 text-4xl text-right">
+        <div className="mobile-menu h-full pr-6 md:pr-16 text-secondary">
+          <nav className="flex flex-col h-full mx-5 text-2xl md:text-4xl text-right">
             {navTabs.map((nav) => (
-              <Link key={nav.key} className="my-6" to={nav.route}>{nav.label}</Link>
+              <Link key={nav.key} className="my-3 md:my-6" to={nav.route}>{nav.label}</Link>
             ))}
           </nav>
         </div>
       </div>
       {showLogo && (
         <Link to={routes.home}>
-          <img className="nav-logo mt-9 ml-14" src={!lightNav ? appLogoSand : appLogoCream} alt="AVDB Consulting" />
+          <img
+            className="nav-logo h-14 md:h-24 sm:h-20 mt-3 ml-3 md:mt-6 lg:mt-9 md:ml-8 lg:ml-14"
+            src={!lightNav ? appLogoSand : appLogoCream}
+            alt="AVDB Consulting"
+          />
         </Link>
       )}
-      <div className="button-container flex items-center mt-10 mr-10 p-0">
+      <div className="button-container flex items-center mt-5 mr-8 md:mt-10 md:mr-10 p-0">
         <a className="linkedin-icon mr-4 text-3xl" href="https://www.linkedin.com/in/alisonvdb/" target="_blank" rel="noreferrer noopener">
           <i className="fab fa-linkedin" />
         </a>

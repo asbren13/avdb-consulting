@@ -17,7 +17,7 @@ const PortfolioCarousel = () => {
         min: 0,
       },
       items: 1,
-      partialVisibilityGutter: 30,
+      partialVisibilityGutter: 10,
     },
     tablet: {
       breakpoint: {
@@ -25,7 +25,7 @@ const PortfolioCarousel = () => {
         min: 464,
       },
       items: 2,
-      partialVisibilityGutter: 30,
+      partialVisibilityGutter: 10,
     },
   };
 
@@ -41,7 +41,7 @@ const PortfolioCarousel = () => {
       draggable
       focusOnSelect={false}
       infinite
-      itemClass="panel-section px-2 mr-8 flex flex-col text-secondary"
+      itemClass="panel-section px-2 mr-3 lg:mr-8 flex flex-col text-secondary"
       keyBoardControl
       minimumTouchDrag={80}
       partialVisible
@@ -56,9 +56,9 @@ const PortfolioCarousel = () => {
       <div className="oyster-sunday bg-cover bg-no-repeat h-full">
         <a href="https://www.oystersunday.com/" target="_blank" rel="noreferrer">
           <div className="panel-content h-full w-full flex flex-col items-center justify-center">
-            <div className="w-1/2 text-4xl text-center">Oyster Sunday</div>
+            <div className="w-3/4 lg:w-1/2 text-2xl lg:text-4xl text-center">Oyster Sunday</div>
             <div className="hidden-line w-4/5 my-8" />
-            <div className="hidden-text px-12 text-xl font-secondary">
+            <div className="hidden-text px-4 lg:px-12 text-sm lg:text-xl font-secondary">
               Insert sentence about the work you did. Insert sentence about the work you did.
               <br />
               <br />
@@ -70,9 +70,9 @@ const PortfolioCarousel = () => {
       <div className="chufly-imports bg-cover bg-no-repeat h-full">
         <a href="https://chufly.com/" target="_blank" rel="noreferrer">
           <div className="panel-content h-full w-full flex flex-col items-center justify-center">
-            <div className="w-1/2 text-4xl text-center">Chufly Imports</div>
+            <div className="w-3/4 lg:w-1/2 text-2xl lg:text-4xl text-center">Chufly Imports</div>
             <div className="hidden-line w-4/5 my-8" />
-            <div className="hidden-text px-12 text-xl font-secondary">
+            <div className="hidden-text px-4 lg:px-12 text-sm lg:text-xl font-secondary">
               Insert sentence about the work you did. Insert sentence about the work you did.
               <br />
               <br />
@@ -84,9 +84,9 @@ const PortfolioCarousel = () => {
       <div className="kevin-zraly bg-cover bg-no-repeat h-full">
         <a href="https://www.kevinzraly.com/" target="_blank" rel="noreferrer">
           <div className="panel-content h-full w-full flex flex-col items-center justify-center">
-            <div className="w-1/2 text-4xl text-center">Kevin Zraly</div>
+            <div className="w-3/4 lg:w-1/2 text-2xl lg:text-4xl text-center">Kevin Zraly</div>
             <div className="hidden-line w-4/5 my-8" />
-            <div className="hidden-text px-12 text-xl font-secondary">
+            <div className="hidden-text px-4 lg:px-12 text-sm lg:text-xl font-secondary">
               Insert sentence about the work you did. Insert sentence about the work you did.
               <br />
               <br />
@@ -98,9 +98,9 @@ const PortfolioCarousel = () => {
       <div className="vin-social bg-cover bg-no-repeat h-full">
         <a href="https://vinsocial.co/" target="_blank" rel="noreferrer">
           <div className="panel-content h-full w-full flex flex-col items-center justify-center">
-            <div className="w-1/2 text-4xl text-center">Vin Social</div>
+            <div className="w-3/4 lg:w-1/2 text-2xl lg:text-4xl text-center">Vin Social</div>
             <div className="hidden-line w-4/5 my-8" />
-            <div className="hidden-text px-12 text-xl font-secondary">
+            <div className="hidden-text px-4 lg:px-12 text-sm lg:text-xl font-secondary">
               Insert sentence about the work you did. Insert sentence about the work you did.
               <br />
               <br />

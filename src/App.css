@@ -6,6 +6,10 @@
   background-color: #844646;
 }
 
+.bg-inherit {
+  background: inherit;
+}
+
 .font-secondary {
   font-family: 'Gotham Book Regular';
 }
@@ -30,24 +34,4 @@
 
 button:focus {
   outline: none;
-}
-
-.text-lg {
-  font-size: 19px;
-  line-height: 22.8px;
-}
-
-.text-2xl {
-  font-size: 27px;
-  line-height: 32.4px;
-}
-
-.text-3xl {
-  font-size: 40px;
-  line-height: 54.4px;
-}
-
-.text-4xl {
-  font-size: 50px;
-  line-height: 68px;
 }

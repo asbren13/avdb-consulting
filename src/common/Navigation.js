@@ -47,7 +47,7 @@ const Navigation = ({ showLogo, lightNav }) => {
         })}
       >
         <div className="close-button-container flex justify-between">
-          <img className="nav-logo h-14 md:h-24 sm:h-full" src={appLogoCream} alt="AVDB Consulting" />
+          <img className="nav-logo h-14 md:h-24" src={appLogoCream} alt="AVDB" />
           <button type="button" className="close-button mr-8" tabIndex="0" onClick={() => setIsOpen(false)}>
             <div className="close-left" />
             <div className="close-right" />
@@ -64,14 +64,14 @@ const Navigation = ({ showLogo, lightNav }) => {
       {showLogo && (
         <Link to={routes.home}>
           <img
-            className="nav-logo h-14 md:h-24 sm:h-20 mt-3 ml-3 md:mt-6 lg:mt-9 md:ml-8 lg:ml-14"
+            className="nav-logo h-14 md:h-24 sm:h-20 mt-3 ml-3 md:mt-6 lg:mt-9 md:ml-8"
             src={!lightNav ? appLogoSand : appLogoCream}
-            alt="AVDB Consulting"
+            alt="AVDB"
           />
         </Link>
       )}
-      <div className="button-container flex items-center mt-5 mr-8 md:mt-10 md:mr-10 p-0">
-        <a className="linkedin-icon mr-4 text-3xl" href="https://www.linkedin.com/in/alisonvdb/" target="_blank" rel="noreferrer noopener">
+      <div className="button-container flex items-center mt-5 mr-8 md:mt-10 p-0">
+        <a className="linkedin-icon mr-4 text-3xl" href="https://www.linkedin.com/company/avdbmktg/" target="_blank" rel="noreferrer noopener">
           <i className="fab fa-linkedin" />
         </a>
         <button type="button" className="open-button" onClick={() => setIsOpen(true)}>

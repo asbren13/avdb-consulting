@@ -26,12 +26,6 @@
   color: #844646;
 }
 
-.button {
-  font-size: 19px;
-  line-height: 22.8px;
-  padding: 11px 58px;
-}
-
 button:focus {
   outline: none;
 }

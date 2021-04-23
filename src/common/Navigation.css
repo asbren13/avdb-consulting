@@ -17,13 +17,8 @@
   box-sizing: border-box;
 }
 
-.nav-logo {
-/*  height: 100px;
-  width: 100px;*/
-}
-
 .button-container {
-  width: 64px;
+  width: 75px;
   height: 35px;
 }
 

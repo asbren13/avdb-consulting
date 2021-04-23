@@ -1,59 +1,56 @@
-.panel-section {
-  height: 465px;
+.panel-header img {
+  object-fit: cover;
 }
 
 .chufly-imports {
-  background-image: url('./images/chufly-imports.png');
+  background-image: url('./images/backgrounds/Chufly Imports.png');
 }
 
 .kevin-zraly {
-  background-image: url('./images/kevin-zraly.png');
+  background-image: url('./images/backgrounds/Kevin Zraly.png');
 }
 
 .oyster-sunday {
-  background-image: url('./images/oyster-sunday.png');
+  background-image: url('./images/backgrounds/Oyster Sunday.png');
 }
 
 .vin-social {
-  background-image: url('./images/vin-social.png');
+  background-image: url('./images/backgrounds/Vin Social.png');
+}
+
+.thatcher-wine {
+  background-image: url('./images/backgrounds/Thatcher.png');
+}
+
+.mezcal-som {
+  background-image: url('./images/backgrounds/Mezcal.png');
+}
+
+.new-deal {
+  background-image: url('./images/backgrounds/NDH.png');
+  background-position: 10% 45%;
+}
+
+.brown-marketing {
+  background-image: url('./images/backgrounds/Brown Marketing.png');
+  background-position: center;
 }
 
 .portfolio-content {
-  background: url('./images/case-studies-bg.png');
+  background: url('./images/backgrounds/Case Studies Image.png');
   background-size: cover;
+  background-position: 50% 75%;
 }
 
 .portfolio-content .porfolio-text {
   height: 370px;
 }
 
-/*.portfolio-content .button {
-  font-size: 18px;
-  padding: 10px 58px;
-}*/
-
-.panel-section .hidden-line,
-.panel-section .hidden-text {
+.panel-section a {
   display: none;
 }
 
-.panel-section .hidden-line {
-  border-bottom: 2px solid #FFFAEC;
-}
-
-.panel-section:hover .panel-content {
-  background: rgba(150, 120, 84, 0.45);
-}
-
-.panel-section:hover .hidden-line,
-.panel-section:hover .hidden-text {
+.panel-section:hover a {
   display: block;
-}
-
-.react-multiple-carousel__arrow {
-  background: rgba(255, 250, 236, 0.5);
-}
-
-.react-multiple-carousel__arrow::before {
-  color: #844646;
+  background: #AD8C63;
 }

@@ -4,20 +4,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Aileron-Regular";
-  src: local("Aileron-Regular"),
-    url("./assets/fonts/Aileron-Regular.otf") format("truetype");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Aileron-Heavy";
-  src: local("Aileron-Heavy"),
-    url("./assets/fonts/Aileron-Heavy.otf") format("truetype");
-  font-weight: normal;
-}
-
-@font-face {
   font-family: "Recoleta-Bold";
   src: local("Recoleta-Bold"),
     url("./assets/fonts/Recoleta-Bold.ttf") format("truetype");

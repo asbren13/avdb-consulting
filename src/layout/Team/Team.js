@@ -1,7 +1,7 @@
 import Navigation from '../../common/Navigation';
 import Footer from '../../common/Footer';
-import alisonImg from '../../assets/images/Alison.svg';
-import alyssaImg from '../../assets/images/Alyssa.svg';
+import alisonImg from './images/Alison.png';
+import alyssaImg from './images/Alyssa.png';
 import './Team.css';
 
 const Team = () => (
@@ -9,15 +9,22 @@ const Team = () => (
     <Navigation showLogo />
     <div className="flex flex-col w-11/12 lg:w-4/5 xl:w-4/6 mt-8 ml-4 mb-8 md:ml-10 lg:ml-16 xl:mt-16 xl:ml-56 xl:mb-10 text-content text-red">
       <div className="text-2xl md:text-5xl leading-normal">
-        Our team is full of passionate individuals who are inspired by telling stories in the wine & hospitality industry.
+        Our team is made up of passionate individuals who are inspired by telling stories in the wine & hospitality industry.
       </div>
     </div>
     <div className="team-content flex flex-col flex-grow h-full w-full bg-cream">
       <div className="content-section flex flex-col h-full items-center w-full my-4 lg:my-14 text-red">
         <div className="flex flex-col lg:flex-row items-center justify-between w-full mb-8">
-          <img className="team-img w-3/4 lg:w-1/2 mb-4 ml-0 lg:ml-20" src={alisonImg} alt="Alison Van de Berghe" />
-          <div className="flex flex-col w-full ml-8 md:w-3/4 lg:w-1/2 md:ml-0">
-            <div className="text-2xl lg:text-4xl text-left mb-3 lg:mb-9">Alison Van de Berghe</div>
+          <a
+            className="team-img w-3/4 lg:w-1/2 mb-10 ml-0 xl:pl-24 xl:pr-20"
+            href="https://www.linkedin.com/in/alisonvdb/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img src={alisonImg} alt="Alison Van de Berghe" />
+          </a>
+          <div className="flex flex-col w-full md:w-3/4 lg:w-1/2 ml-8 md:ml-0">
+            <div className="text-2xl lg:text-4xl text-left md:mt-24 xl:mt-0 mb-3 lg:mb-9">Alison Van de Berghe</div>
             <div className="flex items-center w-full mb-3 lg:mb-9">
               <div className="font-secondary mr-2 text-sm lg:text-2xl">founder</div>
               <div className="horizontal-line w-full" />
@@ -39,9 +46,9 @@ const Team = () => (
             </div>
           </div>
         </div>
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full my-0 md:my-10 lg:my-20">
-          <div className="flex flex-col w-full mr-8 md:w-3/4 lg:w-1/2 md:mr-16 items-end">
-            <div className="text-2xl lg:text-4xl text-right mb-4 lg:mb-9">Alyssa Braeden</div>
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full mr-8 xl:mr-0 my-0 mb-14 lg:my-20">
+          <div className="flex flex-col w-full md:w-3/4 lg:w-1/2 items-end">
+            <div className="text-2xl lg:text-4xl text-right mb-4 lg:mb-9 md:mt-20 xl:mt-0">Alyssa Braden</div>
             <div className="flex items-center w-full mb-3 lg:mb-9">
               <div className="horizontal-line w-full" />
               <div className="font-secondary ml-2 text-sm lg:text-2xl whitespace-nowrap">public relations consultant</div>
@@ -62,7 +69,14 @@ const Team = () => (
               </div>
             </div>
           </div>
-          <img className="team-img w-3/4 lg:w-1/2 mb-4 mr-0 lg:mr-20" src={alyssaImg} alt="Alyssa Braeden" />
+          <a
+            className="team-img w-3/4 lg:w-1/2 mb-4 xl:pr-24 xl:pl-20"
+            href="https://www.linkedin.com/in/alyssa-braden/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img src={alyssaImg} alt="Alyssa Braeden" />
+          </a>
         </div>
       </div>
     </div>

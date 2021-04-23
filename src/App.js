@@ -1,5 +1,5 @@
 import {
-  BrowserRouter, Switch, Route, Redirect,
+  HashRouter, Switch, Route, Redirect,
 } from 'react-router-dom';
 
 import LandingPage from './layout/LandingPage';
@@ -15,7 +15,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="app h-full max-h-none" data-testid="app-component">
         <Switch>
           <Route exact path={routes.landing} component={LandingPage} />
@@ -27,7 +27,7 @@ function App() {
           <Redirect from="/" to={routes.landing} />
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

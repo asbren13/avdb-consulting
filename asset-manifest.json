@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a74a2bff.chunk.css",
-    "main.js": "/static/js/main.60738427.chunk.js",
-    "main.js.map": "/static/js/main.60738427.chunk.js.map",
+    "main.css": "/static/css/main.cfa27944.chunk.css",
+    "main.js": "/static/js/main.20698b26.chunk.js",
+    "main.js.map": "/static/js/main.20698b26.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5601b6ae.js",
     "runtime-main.js.map": "/static/js/runtime-main.5601b6ae.js.map",
     "static/js/2.8afc27a3.chunk.js": "/static/js/2.8afc27a3.chunk.js",
     "static/js/2.8afc27a3.chunk.js.map": "/static/js/2.8afc27a3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a74a2bff.chunk.css.map": "/static/css/main.a74a2bff.chunk.css.map",
+    "static/css/main.cfa27944.chunk.css.map": "/static/css/main.cfa27944.chunk.css.map",
     "static/js/2.8afc27a3.chunk.js.LICENSE.txt": "/static/js/2.8afc27a3.chunk.js.LICENSE.txt",
     "static/media/Alison.0a7e94f7.png": "/static/media/Alison.0a7e94f7.png",
-    "static/media/Alyssa.7fd98e98.png": "/static/media/Alyssa.7fd98e98.png",
+    "static/media/Alyssa.1c9a16bb.png": "/static/media/Alyssa.1c9a16bb.png",
     "static/media/index.css": "/static/media/Recoleta-SemiBold.665ab2ee.ttf",
     "static/media/Portfolio.css": "/static/media/Vin Social.1243292d.png",
     "static/media/Chufly.56c2ed2d.png": "/static/media/Chufly.56c2ed2d.png",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.5601b6ae.js",
     "static/js/2.8afc27a3.chunk.js",
-    "static/css/main.a74a2bff.chunk.css",
-    "static/js/main.60738427.chunk.js"
+    "static/css/main.cfa27944.chunk.css",
+    "static/js/main.20698b26.chunk.js"
   ]
 }

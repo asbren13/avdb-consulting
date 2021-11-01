@@ -17,7 +17,7 @@ const About = () => (
         <Navigation showLogo lightNav />
         <div className={className}>
           <div className="text-2xl sm:text-5xl leading-normal mb-6 sm:mb-9">
-            Everything we do is rooted in a deep belief in the power of hospitality.
+            Everything we do is rooted in a deep belief in the power of hospitality
           </div>
           <div className="text-base sm:text-xl mb-3 font-secondary">
             AVDB provides full-service marketing and business development support to hospitality and wine brands.
